@@ -1,0 +1,48 @@
+.about
+    display: flex
+    flex-direction: column
+    gap: 38px
+
+.about__banner
+    position: relative
+    border-radius: 25px
+    overflow: hidden
+    height: 223px
+
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+.about__banner-text
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    color: #FFFFFF
+    font-size: 48px
+    font-weight: 500
+
+.about__content
+    display: flex
+    flex-direction: column
+    gap: 30px
+    margin: 0 auto 43px auto
+    width: 100%
+    max-width: 1023px
+
+@media (max-width: 768px)
+    .about
+        gap: 19px
+        
+    .about__banner
+        height: 111px
+        border-radius: 10px
+
+    .about__banner-text
+        font-size: 24px
+
+    .about__content
+        gap: 19px
+        margin-bottom: 0
+

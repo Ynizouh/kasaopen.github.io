@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logements from '../data/logements.json'
 import bannerImg from '../assets/4706e7dde270fc8fc902a1eb738458e7b29c1899.jpg'
-import '../css/Home.sass'
+import '../sass/Home.sass'
 
 function Home() {
     return (

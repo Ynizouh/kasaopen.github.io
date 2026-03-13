@@ -2,7 +2,7 @@ import { useParams, Navigate } from 'react-router-dom'
 import logements from '../data/logements.json'
 import Collapse from '../components/Collapse'
 import Slideshow from '../components/Slideshow'
-import '../css/Housing.sass'
+import '../sass/Housing.sass'
 
 function Housing() {
     const { id } = useParams()

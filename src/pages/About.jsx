@@ -1,5 +1,5 @@
 import Collapse from '../components/Collapse'
-import '../css/About.sass'
+import '../sass/About.sass'
 import bannerImg from '../assets/56fae17eb9995860bb6384a77ca7dc9bf52da3be.jpg'
 
 function About() {
